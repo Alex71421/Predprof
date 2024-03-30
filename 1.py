@@ -3,7 +3,7 @@ with open('cars.txt', encoding='utf-8') as file:
     info = file.readline()
     cars = [i.split('$') for i in file.readlines()]
 
-    '''писок машин с серебряным цветом'''
+    '''список машин с серебряным цветом'''
     silver_cars = []
 
     '''создание результирующего файла'''
